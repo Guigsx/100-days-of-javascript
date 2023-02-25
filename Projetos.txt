@@ -1,0 +1,6 @@
+1- Clima app
+2- Lol account
+3- Moedas atualizadas
+4- Gerador de QRCode
+5- Calculadora
+6- Cronometro

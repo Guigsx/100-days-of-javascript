@@ -1,0 +1,61 @@
+body {
+    background-color: rgba(0, 0, 0, 0.801);
+    font-family: 'Ubuntu', sans-serif;
+    height: 700px;
+}
+
+.card_question {
+    width: 270px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.116);
+    position: relative;
+    left: 38%;
+    top: 100px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.904);
+}
+
+input {
+    text-align: center;
+    outline: none;
+    position: relative;
+    left: 10%;
+    top: 20%;
+    font-weight: 700;
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: rgb(59, 165, 92);
+    color: white;
+    cursor: pointer;
+    position: relative;
+    left: 30%;
+    top: 30%;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.616);
+    transition: all 0.5s;
+}
+
+button:hover {
+    background-color: rgb(37, 95, 55);
+}
+
+.card_answer {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    left: 37%;
+    top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

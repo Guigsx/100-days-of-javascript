@@ -56,9 +56,9 @@ body {
 .resultado nome {
     font-weight: 700;
     font-size: 20px;
-    position: relative;
-    left: 5%;
-    top: 10%;
+    position: absolute;
+    left: 50%;
+    top: 25%;
 }
 
 .resultado level {
@@ -75,4 +75,22 @@ body {
 
 .esconder {
     display: none;
+}
+
+wins, losses, winrate {
+    position: absolute;
+    left: 50%;
+    font-weight: 100;
+    color: gray;
+}
+
+wins {
+    top: 30%;
+}
+losses {
+    top: 30%;
+    left: 53%;
+}
+winrate {
+    top: 34%;
 }
